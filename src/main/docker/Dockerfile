@@ -7,7 +7,7 @@ VOLUME /tmp
 
 ADD euraka-discovery-$VERSION.jar euraka.jar
 
-RUN bash -c 'touch /euraka.jar'
+RUN sh -c 'touch /euraka.jar'
 
 EXPOSE 8761
 
