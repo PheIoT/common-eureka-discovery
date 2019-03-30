@@ -10,20 +10,19 @@
         <relativePath>../spring-cloud-parent/spring-cloud-parent-1.0.0.pom</relativePath>
     </parent>
 
-    <groupId>com.pheiot.phecloud</groupId>
-    <artifactId>euraka-discovery</artifactId>
+    <groupId>com.pheiot</groupId>
+    <artifactId>phecloud-euraka-discovery</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>euraka-discovery</name>
-    <description>Phecloud :: Service Dioscovery</description>
+    <name>phecloud-euraka-discovery</name>
+    <description>PheCloud :: Service Discovery</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <spring-cloud.version>Finchley.SR1</spring-cloud.version>
-        <docker.image.prefix>btcs</docker.image.prefix>
+        <docker.image.prefix>pheiot</docker.image.prefix>
         <docker-plugin-version>0.4.13</docker-plugin-version>
     </properties>
 

@@ -4,7 +4,7 @@ MAINTAINER Peter Li <peter.li@pheiot.com>
 ENV VERSION=0.0.1-SNAPSHOT
 VOLUME /tmp
 
-ADD euraka-discovery-$VERSION.jar euraka.jar
+ADD phecloud-euraka-discovery-$VERSION.jar euraka.jar
 
 RUN sh -c 'touch /euraka.jar'
 EXPOSE 8761
